@@ -1,0 +1,15 @@
+$text-color-light: #9e9e9e;
+$text-color-title: #404040;
+$text-color-dark: #1e1e1e;
+
+@mixin fontOSRG {
+  font-family: 'Open Sans Regular', Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@mixin fontOSSemiBold{
+  font-family: 'Open Sans SemiBold', Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
